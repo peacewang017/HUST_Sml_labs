@@ -47,9 +47,9 @@ fun reverse ([]) = []
 
 fun link (list1:int list , list2:int list) = list1 @ list2; 
 (*****Begin*****)
-val n1=getInt();
-val n2=getInt();
-val list1=getIntTable(n1);
-val list2=getIntTable(n2);
+val n1 = getInt();
+val n2 = getInt();
+val list1 = getIntTable(n1);
+val list2 = getIntTable(n2);
 printIntTable (reverse(link(list1 , list2)));
 (*****End*****)
